@@ -9,3 +9,9 @@
 
 #else   # we have not mentioned x=y as logically that is the only condition left
 #    print("x is equal to y")
+
+#if x > y or y > x:
+#    print("x and y are not equal")
+
+#else:
+#    print("x and y are equal")
