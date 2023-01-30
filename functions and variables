@@ -1,0 +1,32 @@
+########################input###############################
+#print("hello world")
+#name = input("enter your name")
+#print (name)
+#num = int(input("enter any number"))
+#print(num1)
+
+#####################format string##########################
+#formatstring
+#name = input("enter name")
+#print(f"Hello, {name}")
+
+#######################escape characters###################
+#escape characters
+#print("hello, \"world\"")
+
+######################strng methods########################
+#string methods (methods are built in function)
+# remove whitepsaces. 
+#name = name.strip()
+#name = name.Capitalize()
+# capitalize first letter of each word
+#name = name.title()
+#name = name.strip().title()
+#name = input (what is your name”).strip().capitalize()
+#name.split(“ ”)
+#split removes from left and right but not in the middle
+
+######################int and float###########################
+#print(round(x+y)) -  if we don’t need output as float but as integer
+#print(round(x+y), 2) -  if the float value is big and we need to round off to two decimal places
+#round(number[, ndigits]) — the one in square brackets is optional
