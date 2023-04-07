@@ -1,3 +1,4 @@
+#Collection of different datatypes which can be ordered and can be modified
 vegetables = ['Tomato', 'Potato', 'Cabbage','Onion', 'Carrot']
 print(vegetables)
 print(len(vegetables))
