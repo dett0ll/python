@@ -31,3 +31,34 @@ print(veg)
 #{'raddish', 'peas', 'carrot', 'beans', 'tomato', 'onion'}
 #{'peas', 'carrot', 'beans', 'tomato', 'onion'}
 #{'beans', 'raddish', 'peas', 'tomato'}
+
+veg = {'peas', 'beans', 'raddish', 'tomato', 1}
+num = {1,2,3,4, 'beans'}
+vegnum = veg.union(num) #this method returns a new set
+print(vegnum)
+
+veg.update(num) #insert set(num) to another set(veg)
+print(veg)
+
+a = {1,2,3,4}
+b = {3,4,5}
+print(a.intersection(b)) #items that are common in both sets
+
+c= {1,2,3,4,5,6,7,8}
+d={5,6,7}
+print(d.issubset(c))
+print(c.issuperset(d))
+print(c.difference(d))
+print(d.symmetric_difference(c))
+print(d.isdisjoint(c)) #it will give false because they havse some common elements
+
+#output
+#{1, 2, 'raddish', 3, 4, 'tomato', 'beans', 'peas'}
+#{1, 2, 'raddish', 3, 4, 'tomato', 'beans', 'peas'}
+#{3, 4}
+#True
+#True
+#{1, 2, 3, 4, 8}
+#{1, 2, 3, 4, 8}
+#False
+#
