@@ -66,3 +66,14 @@ print(Vegetables) # it shows undefined because the list vegtables is deleted
 #Traceback (most recent call last):
 #  File "<string>", line 25, in <module>
 #NameError: name 'Vegetables' is not defined
+
+vegetables = ['Tomato', 'Potato', 'Cabbage','Onion', 'Carrot']
+vegetables.clear() # it will clear the list
+print(vegetables)
+
+vegetables = ['Tomato', 'Potato', 'Cabbage','Onion', 'Carrot']
+veg = vegetables.copy() #copy the list
+print(veg)
+#output
+#[]
+#['Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot']
