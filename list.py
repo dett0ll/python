@@ -77,3 +77,31 @@ print(veg)
 #output
 #[]
 #['Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot']
+
+veg1 = ['tomato', 'potato']
+veg2 = ['radish', 'peas']
+veg = veg1 + veg2 #joins two lists
+print(veg)
+n1 = [0,1,2]
+n2 = [3,4,5]
+n1.extend(n2) #append list in a list
+print(n1)
+
+a = [1,2,3,4,5,6,1,1,3,4,5]
+print(a.count(1)) #how many time 1 appears in the list
+print(a.index(2)) #it return the index where 2 appears for the first time
+a.reverse() #reverse the items in list
+print(a)
+a.sort() #sorts the list in ascending order
+print(a)
+a.sort(reverse=True) #sorts list in descending order
+print(a)
+
+#output
+#['tomato', 'potato', 'radish', 'peas']
+#[0, 1, 2, 3, 4, 5]
+#3
+#1
+#[5, 4, 3, 1, 1, 6, 5, 4, 3, 2, 1]
+#[1, 1, 1, 2, 3, 3, 4, 4, 5, 5, 6]
+#[6, 5, 5, 4, 4, 3, 3, 2, 1, 1, 1]
