@@ -32,3 +32,8 @@ name = 'John'
 for s in name:
     print(s)
     
+redbull = {'name':'max',
+            'age':'22',
+            'championship':'2'}
+for key in redbull:
+    print(key)
