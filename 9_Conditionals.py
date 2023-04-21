@@ -25,3 +25,14 @@ elif a<0:
     print('a is negative number')
 else:
     print('a is equal to zero')
+#logical condition
+
+a = 4
+if a>0 and a%2==0:
+    print('a is even and positive number')
+elif a>0 and a%2!=0:
+    print('a is even number')
+elif a==0:
+    print('a is zero')
+else:
+    print('a is not positive number')
