@@ -37,3 +37,13 @@ redbull = {'name':'max',
             'championship':'2'}
 for key in redbull:
     print(key)
+    
+#range(start,end,step)
+a =list(range(11))
+print(a) # it will print from 0 to 11
+
+b =list(range(2,11))
+print(b) #it will satrt from 2 and end at 10
+
+c = list(range(2, 11, 2))
+print(c) #it will start fromm 2 and end at 10 but 2, 4, 6, 8, 10
