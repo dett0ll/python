@@ -49,4 +49,14 @@ print(min(s)) # output will be A because as per ASCII A is lower place than a
 s = "terminator"
 print(max(s)) # output will be t
 
+s = "terminator"
+print(s.index("t")) # output is 0 as it only shows the first place of t
+
+s = "terminator"
+print(list(s))
+#it will change string to list ['t', 'e', 'r', 'm', 'i', 'n', 'a', 't', 'o', 'r']
+
+s = "terminator"
+print(s.count("t")) # output is 2. it counts the number of time t is present
+
 
